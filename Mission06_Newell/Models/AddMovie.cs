@@ -23,11 +23,11 @@ namespace Mission06_Newell.Models
         [Required(ErrorMessage = "Rating is required")]
         public string Rating { get; set; }
 
-        public bool? Edited { get; set; } // Nullable to allow deselection
-
-        public string LentTo { get; set; }
+        public bool Edited { get; set; } // Nullable to allow deselection
+        
+        public string? LentTo { get; set; }
 
         [StringLength(25, ErrorMessage = "Notes cannot exceed 25 characters")]
-        public string Notes { get; set; }
+        public string? Notes { get; set; }
     }
 }

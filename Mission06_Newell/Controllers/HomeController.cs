@@ -6,6 +6,12 @@ namespace Mission06_Newell.Controllers;
 
 public class HomeController : Controller
 {
+    private MoviesContext _context;
+    
+    public HomeController(MoviesContext temp)
+    {
+        _context = temp;
+    }
     public IActionResult Index()
     {
         return View();
@@ -15,9 +21,20 @@ public class HomeController : Controller
     {
         return View();
     }
+    
+    [HttpGet]
     public IActionResult Movies()
     {
         return View();
+    }
+
+    [HttpPost]
+    public IActionResult Movies(AddMovie response)
+    {
+        _context.Movies.Add(response);
+        _context.SaveChanges();
+        
+        return View("Confirmation", response);
     }
     
 }
