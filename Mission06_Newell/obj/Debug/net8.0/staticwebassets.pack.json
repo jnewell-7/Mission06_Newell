@@ -5,8 +5,32 @@
       "PackagePath": "staticwebassets/Mission06_Newell.bundle.scp.css"
     },
     {
+      "Id": "/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/wwwroot/about.txt",
+      "PackagePath": "staticwebassets/about.txt"
+    },
+    {
+      "Id": "/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/wwwroot/android-chrome-192x192.png",
+      "PackagePath": "staticwebassets/android-chrome-192x192.png"
+    },
+    {
+      "Id": "/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/wwwroot/android-chrome-512x512.png",
+      "PackagePath": "staticwebassets/android-chrome-512x512.png"
+    },
+    {
+      "Id": "/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/wwwroot/apple-touch-icon.png",
+      "PackagePath": "staticwebassets/apple-touch-icon.png"
+    },
+    {
       "Id": "/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/wwwroot/favicon-16x16.png",
+      "PackagePath": "staticwebassets/favicon-16x16.png"
+    },
+    {
+      "Id": "/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/wwwroot/favicon-32x32.png",
+      "PackagePath": "staticwebassets/favicon-32x32.png"
     },
     {
       "Id": "/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/wwwroot/favicon.ico",
@@ -251,6 +275,10 @@
     {
       "Id": "/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/wwwroot/site.webmanifest",
+      "PackagePath": "staticwebassets/site.webmanifest"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Mission06_Newell.Microsoft.AspNetCore.StaticWebAssets.props",
