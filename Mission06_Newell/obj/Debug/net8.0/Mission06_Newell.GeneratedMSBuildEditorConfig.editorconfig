@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/Views/Home/Archive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BcmNoaXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jacks/RiderProjects/Mission06_Newell/Mission06_Newell/Views/Home/Confirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

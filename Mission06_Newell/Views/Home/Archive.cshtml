@@ -1,0 +1,39 @@
+
+@{
+}
+
+@model List<AddMovie>
+
+<table class="table table-bordered">
+    <thead style="font-weight:bold;">
+    <tr>
+        <td>Movie Title</td>
+        <td>Category</td>
+        <td>Rating</td>
+        <td>Director</td>
+        <td>Year</td>
+        <td>Edited</td>
+        <td>Lent To</td>
+        <td>Notes</td>
+    </tr>
+   
+    </thead>
+    
+    @foreach (var x in Model)
+    {
+        <tbody>
+        <tr>
+            <td>@x.MovieTitle</td>
+            <td>@x.Category</td>
+            <td>@x.Rating</td>
+            <td>@x.Director</td>
+            <td>@x.Year</td>
+            <td>@x.Edited</td>
+            <td>@x.LentTo</td>
+            <td>@x.Notes</td>
+        </tr>
+     
+        </tbody>
+    }
+   
+</table>

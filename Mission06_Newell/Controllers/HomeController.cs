@@ -36,5 +36,12 @@ public class HomeController : Controller
         
         return View("Confirmation", response);
     }
+
+    public IActionResult Archive()
+    {
+        var movieList = _context.Movies.ToList();
+        
+        return View(movieList);
+    }
     
-}
+} 
