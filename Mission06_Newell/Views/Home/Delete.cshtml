@@ -1,0 +1,9 @@
+@model AddMovie
+
+<h2>Are you sure you want to delete: @Model.Title?</h2>
+<form method="post">
+    <input type="hidden" asp-for="MovieId"/>
+    
+    <a class="btn btn-info" asp-controller="Home" asp-action="Archive">Cancel</a>
+    <button class="btn btn-danger"type="submit">Delete</button>
+</form>
